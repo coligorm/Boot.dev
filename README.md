@@ -1,5 +1,5 @@
 # Boot.dev Progress
- I have a year membership to complete the following course.
+ I have a year membership to complete the following [course](https://www.boot.dev/tracks/backend-python-typescript).
  
 ## Back-end Developer Path
 
