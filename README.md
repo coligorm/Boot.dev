@@ -31,7 +31,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Filesystems
 - [x] Permissions
 - [x] Programs
-- [ ] Input/Output
+- [ ] Input/Output (In Progress)
 - [ ] Packages
 
 ### 3. Build a Bootbot in Python
