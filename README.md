@@ -26,13 +26,15 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 </details>
 
 ### 2. Learn Linux
-
-- [x] Terminals and Shells
-- [x] Filesystems
-- [x] Permissions
-- [x] Programs
-- [x] Input/Output
-- [x] Packages
+<details>
+<summary><em>Completed Chapters<em></summary>
+<ol><li> <s>Terminals and Shells</s></li>
+<li> <s>Filesystems</s></li>
+<li> <s>Permissions</s></li>
+<li> <s>Programs</s></li>
+<li> <s>Input/Output</s></li>
+<li> <s>Packages</s></li></ol>
+</details>
 
 ### 3. Build a Bootbot in Python
 *chapters to be added*
