@@ -37,4 +37,10 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 </details>
 
 ### 3. Build a Bootbot in Python
+- [ ] Setup
+- [ ] Data Analysis
+- [ ] Report
+
+### 4. Learn Git
+
 *chapters to be added*
