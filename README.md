@@ -32,7 +32,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Permissions
 - [x] Programs
 - [x] Input/Output
-- [ ] Packages
+- [x] Packages
 
 ### 3. Build a Bootbot in Python
 *chapters to be added*
