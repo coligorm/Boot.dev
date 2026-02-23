@@ -25,7 +25,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Quiz</s></li></ol>
 </details>
 
-### 2. Learn Linux
+### 2. Learn Linux :heavy_check_mark:
 <details>
 <summary><em>Completed Chapters<em></summary>
 <ol><li> <s>Terminals and Shells</s></li>
@@ -36,7 +36,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Packages</s></li></ol>
 </details>
 
-### 3. Build a Bootbot in Python
+### 3. Build a Bootbot in Python :hammer_and_wrench: (Project)
 - [ ] Setup
 - [ ] Data Analysis
 - [ ] Report
