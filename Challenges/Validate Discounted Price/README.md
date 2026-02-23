@@ -1,30 +1,28 @@
-# Group Books by Author
+# Validate Discounted Price
 
-## Complete the ``group_books_by_author`` function.
+## Complete the ``apply_discount`` function.
 
-You are given a list of book dictionaries. Each book has a ``"title"`` and an ``"author"`` key.
+This function helps a small in-game shop safely apply percentage discounts to item prices.
 
-Your job is to build and return a dictionary that groups book titles by their author.
+``apply_discount(price, discount)`` should:
 
-- The keys of the result should be author names (strings).
-- The values should be lists of titles (strings) written by that author.
-- The titles in each list should appear in the same order as in the input list.
-- If the input list is empty, return an empty dictionary.
+1. Treat both price and discount as integers.
+2. Use exceptions to handle bad input.
+3. Ret3.urn the final price after the discount.
 
-### Function Details
-> ``result = group_books_by_author(books)``
+### Rules
+1. Try to convert both ``price`` and ``discount`` to integers.
 
-- books is a list of dictionaries like:
-    - ``{"title": "The Hobbit", "author": "J.R.R. Tolkien"}``
-- You should create a new dictionary and fill it using a loop.
+    - If either value cannot be converted (for example, a list or a string like ``"ten"``), raise:
+    > ``ValueError("price and discount must be numbers")``
 
-Think in steps:
+2. If the (converted) price is less than 0, raise:
 
-1. Start with an empty dictionary ``author_to_titles``.
-2. Loop through each ``book`` in the ``books`` list.
-3. For each ``book``:
-    - Get the author name.
-    - Get the title.
-    - If the author is not already a key in the dictionary, add it with an empty list.
-    - Append the title to that author's list.
-4. Return the ``author_to_titles`` dictionary.
+    > ``ValueError("price must be non-negative")``
+
+3. If the (converted) discount is less than 0 or greater than 100, raise:
+
+    > ``ValueError("discount must be between 0 and 100")``
+
+4. Otherwise, compute the final price as an integer after applying the percentage discount.
+    - Use integer math (no decimals). For example, a 25% discount on 80 should give 60.
