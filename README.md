@@ -7,8 +7,9 @@ The course begins with the basics in Python, but includes lessons on Linux, Git,
 I have a fairly good grasp on a lot of earlier concepts but i will use them as a refresher before leading into more intense learning
 
 ### 1. Learn to Code in Python :heavy_check_mark:
+
 <details>
-<summary><em>Completed Chapters<em></summary>
+<summary><em>Completed Chapters</em></summary>
 <ol><li> <s>Introduction</s></li>
 <li> <s>Variables</s></li>
 <li> <s>Functions</s></li>
@@ -26,8 +27,9 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 </details>
 
 ### 2. Learn Linux :heavy_check_mark:
+
 <details>
-<summary><em>Completed Chapters<em></summary>
+<summary><em>Completed Chapters</em></summary>
 <ol><li> <s>Terminals and Shells</s></li>
 <li> <s>Filesystems</s></li>
 <li> <s>Permissions</s></li>
@@ -37,6 +39,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 </details>
 
 ### 3. Build a Bootbot in Python :hammer_and_wrench: (Project)
+
 - [ ] Setup
 - [ ] Data Analysis
 - [ ] Report
