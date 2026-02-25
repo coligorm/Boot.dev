@@ -38,12 +38,25 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Packages</s></li></ol>
 </details>
 
-### 3. Build a Bootbot in Python :hammer_and_wrench: (Project)
+### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) :heavy_check_mark:
 
-- [ ] Setup
-- [ ] Data Analysis
-- [ ] Report
+<details>
+<summary><em>Completed Chapters</em></summary>
+<ol><li> <s>Setup</s></li>
+<li> <s>Data Analysis</s></li>
+<li> <s>Report</s></li></ol>
+</details>
 
 ### 4. Learn Git
 
-*chapters to be added*
+- [ ] Setup
+- [ ] Repositories
+- [ ] Internals
+- [ ] Config
+- [ ] Branching
+- [ ] Merge
+- [ ] Rebase
+- [ ] Reset
+- [ ] Remote
+- [ ] GitHub
+- [ ] Gitignore
