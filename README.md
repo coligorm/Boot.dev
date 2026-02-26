@@ -1,5 +1,6 @@
 # Boot.dev Progress
- I have a year membership to complete the following [course](https://www.boot.dev/tracks/backend-python-typescript).
+
+I have a year membership to complete the following [course](https://www.boot.dev/tracks/backend-python-typescript).
  
 ## Back-end Developer Path
 
@@ -50,7 +51,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 ### 4. Learn Git
 
 - [x] Setup
-- [ ] Repositories
+- [x] Repositories
 - [ ] Internals
 - [ ] Config
 - [ ] Branching
