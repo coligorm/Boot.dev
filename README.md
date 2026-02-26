@@ -52,7 +52,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 - [x] Setup
 - [x] Repositories
-- [ ] Internals
+- [x] Internals
 - [ ] Config
 - [ ] Branching
 - [ ] Merge
