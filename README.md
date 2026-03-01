@@ -56,7 +56,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Config
 - [x] Branching
 - [x] Merge
-- [ ] Rebase
+- [x] Rebase
 - [ ] Reset
 - [ ] Remote
 - [ ] GitHub
