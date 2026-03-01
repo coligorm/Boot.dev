@@ -57,7 +57,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Branching
 - [x] Merge
 - [x] Rebase
-- [ ] Reset
+- [x] Reset
 - [ ] Remote
 - [ ] GitHub
 - [ ] Gitignore
