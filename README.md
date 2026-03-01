@@ -55,7 +55,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Internals
 - [x] Config
 - [x] Branching
-- [ ] Merge
+- [x] Merge
 - [ ] Rebase
 - [ ] Reset
 - [ ] Remote
