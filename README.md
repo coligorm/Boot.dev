@@ -59,5 +59,5 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Rebase
 - [x] Reset
 - [x] Remote
-- [ ] GitHub
-- [ ] Gitignore
+- [x] GitHub
+- [x] Gitignore
