@@ -48,16 +48,32 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Report</s></li></ol>
 </details>
 
-### 4. Learn Git
+### 4. Learn Git :heavy_check_mark:
 
-- [x] Setup
-- [x] Repositories
-- [x] Internals
-- [x] Config
-- [x] Branching
-- [x] Merge
-- [x] Rebase
-- [x] Reset
-- [x] Remote
-- [x] GitHub
-- [x] Gitignore
+<details>
+<summary><em>Completed Chapters</em></summary>
+<ol><li> <s>Setup</s></li>
+<li> <s>Repositories</s></li>
+<li> <s>Internals</s></li>
+<li> <s>Config</s></li>
+<li> <s>Branching</s></li>
+<li> <s>Merge</s></li>
+<li> <s>Rebase</s></li>
+<li> <s>Reset</s></li>
+<li> <s>Remote</s></li>
+<li> <s>GitHub</s></li>
+<li> <s>Gitignore</s></li></ol>
+</details>
+
+### 5. Learn Object Oriented Programming in Python
+
+- [ ] Clean code
+- [ ] Classes
+- [ ] Encapsulation
+- [ ] Abstraction
+- [ ] Inheritance
+- [ ] Polymorphism
+
+### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project)
+
+*chapters to be added*
