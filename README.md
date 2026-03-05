@@ -71,7 +71,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Classes
 - [x] Encapsulation
 - [x] Abstraction
-- [ ] Inheritance
+- [x] Inheritance
 - [ ] Polymorphism
 
 ### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project)
