@@ -67,13 +67,23 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 5. Learn Object Oriented Programming in Python
 
-- [x] Clean code
-- [x] Classes
-- [x] Encapsulation
-- [x] Abstraction
-- [x] Inheritance
-- [x] Polymorphism
+<details>
+<summary><em>Completed Chapters</em></summary>
+<ol><li> <s>Clean code</s></li>
+<li> <s>Classes</s></li>
+<li> <s>Encapsulation</s></li>
+<li> <s>Abstraction</s></li>
+<li> <s>Inheritance</s></li>
+<li> <s>Polymorphism</s></li></ol>
+</details>
 
 ### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project)
+
+-[ ] Pygame
+-[ ] Gameloop
+-[ ] Player
+-[ ] Asteroids
+
+### 7. Learn Functional Programming in Python
 
 *chapters to be added*
