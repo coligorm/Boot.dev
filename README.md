@@ -81,7 +81,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 -[x] Pygame
 -[x] Gameloop
--[ ] Player (In Progress)
+-[x] Player
 -[ ] Asteroids
 
 ### 7. Learn Functional Programming in Python
