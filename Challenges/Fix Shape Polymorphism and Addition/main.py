@@ -5,7 +5,7 @@ class Shape:
     def __add__(self, other):
         if not isinstance(other, Shape):
             return NotImplemented
-        return self.area() + other.area()
+        return CompositeShape([self, other])
 
 
 class Rectangle(Shape):
@@ -14,13 +14,12 @@ class Rectangle(Shape):
         self.height = height
 
     def area(self):
-        return self.width + self.height
+        return self.width * self.height
 
 
 class Square(Rectangle):
     def __init__(self, side):
-        self.width = side
-        self.height = 0
+        super().__init__(side, side)
 
 
 class CompositeShape(Shape):
@@ -28,4 +27,7 @@ class CompositeShape(Shape):
         self.shapes = list(shapes)
 
     def area(self):
-        return len(self.shapes)
+        total = 0
+        for shape in self.shapes:
+            total += shape.area()
+        return total
