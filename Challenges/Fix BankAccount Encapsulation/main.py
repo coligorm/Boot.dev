@@ -9,7 +9,7 @@ class BankAccount:
         self.__transactions = []
 
         self.__account_number = BankAccount.next_account_number
-        self.next_account_number += 1
+        __class__.next_account_number += 1
 
         self.__daily_withdraw_limit = BankAccount.default_daily_withdraw_limit
 
@@ -33,8 +33,8 @@ class BankAccount:
             raise ValueError("daily_withdraw_limit must be an int")
         if limit <= 0:
             raise ValueError("daily_withdraw_limit must be > 0")
-        BankAccount.default_daily_withdraw_limit = limit
-        self.__daily_withdraw_limit = BankAccount.default_daily_withdraw_limit
+        # BankAccount.default_daily_withdraw_limit = limit
+        self.__daily_withdraw_limit = limit
 
     def deposit(self, amount):
         if type(amount) is not int:
@@ -59,4 +59,7 @@ class BankAccount:
         self.__transactions.append({"type": "withdraw", "amount": amount})
 
     def get_transactions(self):
-        return self.__transactions
+        result = []
+        for t in self.__transactions:
+            result.append({"type": t["type"], "amount": t["amount"]})
+        return result
