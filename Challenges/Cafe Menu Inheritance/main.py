@@ -4,7 +4,7 @@ class MenuItem:
         self.price = price
 
     def description(self):
-        pass
+        return f"{self.name}: ${self.price}"
 
 
 class Drink(MenuItem):
@@ -13,7 +13,7 @@ class Drink(MenuItem):
         self.size = size
 
     def description(self):
-        pass
+        return f"{self.name} ({self.size} drink): ${self.price}"
 
 
 class Dessert(MenuItem):
@@ -22,4 +22,4 @@ class Dessert(MenuItem):
         self.slices = slices
 
     def description(self):
-        pass
+        return f"{self.name} ({self.slices} slices): ${self.price}"
