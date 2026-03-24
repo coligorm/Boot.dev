@@ -40,12 +40,12 @@ class WindAbility(Ability):
 
 
 def get_strongest_ability(abilities):
-    strongest = Ability("tmp")
     if len(abilities) == 0:
         return None
-        
+
+    strongest = abilities[0]
+    
     for abilitie in abilities:
-        if abilitie.power() > strongest.power():
+        if abilitie > strongest:
             strongest = abilitie
     return strongest.name
-        
