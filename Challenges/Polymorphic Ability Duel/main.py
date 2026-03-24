@@ -3,13 +3,13 @@ class Ability:
         self.name = name
 
     def power(self):
-        pass
+        return 0
 
     def __add__(self, other):
-        pass
+        return self.power() + other.power()
 
     def __gt__(self, other):
-        pass
+        return self.power() > other.power()
 
 
 class FireAbility(Ability):
@@ -18,7 +18,7 @@ class FireAbility(Ability):
         self.flames = flames
 
     def power(self):
-        pass
+        return self.flames * 4
 
 
 class IceAbility(Ability):
@@ -27,7 +27,7 @@ class IceAbility(Ability):
         self.shards = shards
 
     def power(self):
-        pass
+        return self.shards * 3
 
 
 class WindAbility(Ability):
@@ -36,8 +36,16 @@ class WindAbility(Ability):
         self.gusts = gusts
 
     def power(self):
-        pass
+        return self.gusts + 5
 
 
 def get_strongest_ability(abilities):
-    pass
+    strongest = Ability("tmp")
+    if len(abilities) == 0:
+        return None
+        
+    for abilitie in abilities:
+        if abilitie.power() > strongest.power():
+            strongest = abilitie
+    return strongest.name
+        
