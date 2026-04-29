@@ -79,11 +79,24 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project)
 
--[x] Pygame
--[x] Gameloop
--[x] Player
--[ ] Asteroids
+- [x] Pygame
+- [x] Gameloop
+- [x] Player
+- [ ] Asteroids
+
+*ran into error with Pygame. Project to be continued*
 
 ### 7. Learn Functional Programming in Python
+
+- [ ] What is Functional Programming?
+- [ ] First Class functions
+- [ ] Pure Functions
+- [ ] Recursion
+- [ ] Functions Transformations
+- [ ] Closures
+- [ ] Currying
+- [ ] Decorators
+
+### 8. Build an AI Agent
 
 *chapters to be added*
