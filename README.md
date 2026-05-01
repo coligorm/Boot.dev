@@ -88,7 +88,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 7. Learn Functional Programming in Python
 
-- [ ] What is Functional Programming?
+- [x] What is Functional Programming?
 - [ ] First Class functions
 - [ ] Pure Functions
 - [ ] Recursion
