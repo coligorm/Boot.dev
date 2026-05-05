@@ -65,7 +65,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Gitignore</s></li></ol>
 </details>
 
-### 5. Learn Object Oriented Programming in Python
+### 5. Learn Object Oriented Programming in Python :heavy_check_mark:
 
 <details>
 <summary><em>Completed Chapters</em></summary>
