@@ -200,3 +200,16 @@ def join_first_sentences(sentences, n):
     return functools.reduce(join, sentences[:n]) + "."
 
 ```
+
+#### Zip
+
+The zip function takes two iterables (in this case lists), and returns a new iterable where each element is a tuple containing one element from each of the original iterables.
+
+```
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+c = list(zip(a, b))
+print(c)
+# [(1, 4), (2, 5), (3, 6)]
+```
