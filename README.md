@@ -90,7 +90,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 - [x] What is Functional Programming?
 - [x] First Class functions
-- [ ] Pure Functions
+- [ ] Pure Functions (In progress)
 - [ ] Recursion
 - [ ] Functions Transformations
 - [ ] Closures
