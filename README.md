@@ -84,7 +84,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Player
 - [ ] Asteroids
 
-*ran into error with Pygame. Project to be continued*
+*ran into error with Pygame working through WSL. Project to be continued*
 
 ### 7. Learn Functional Programming in Python
 
