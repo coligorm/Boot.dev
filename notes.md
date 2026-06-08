@@ -213,3 +213,38 @@ c = list(zip(a, b))
 print(c)
 # [(1, 4), (2, 5), (3, 6)]
 ```
+
+
+
+### Function Transformations
+
+"Function transformation" is just a concise way to describe a specific type of higher-order function. It's when a function takes a function (or functions) as input and returns a new function. Let's look at an example:
+
+```
+from collections.abc import Callable
+
+def multiply(x: int, y: int) -> int:
+    return x * y
+
+def add(x: int, y: int) -> int:
+    return x + y
+
+# self_math is a higher-order function
+# input: a function that takes two arguments and returns a value
+# output: a new function that takes one argument and returns a value
+def self_math(math_func: Callable[[int, int], int]) -> Callable[[int], int]:
+    def inner_func(x: int) -> int:
+        return math_func(x, x)
+    return inner_func
+
+square_func: Callable[[int], int] = self_math(multiply)
+double_func: Callable[[int], int] = self_math(add)
+
+print(square_func(5))
+# prints 25
+
+print(double_func(5))
+# prints 10
+```
+
+The `self_math` function takes a function that operates on two *different* parameters (e.g. `multiply` or `add`) and returns a new function that operates on one parameter *twice* (e.g. `square` or `double`).
