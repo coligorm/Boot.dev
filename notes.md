@@ -216,7 +216,7 @@ print(c)
 
 
 
-### Function Transformations
+### 7.5.1 Function Transformations
 
 "Function transformation" is just a concise way to describe a specific type of higher-order function. It's when a function takes a function (or functions) as input and returns a new function. Let's look at an example:
 
