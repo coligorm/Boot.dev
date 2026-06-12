@@ -94,7 +94,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Recursion
 - [x] Functions Transformations
 - [x] Closures
-- [ ] Currying
+- [ ] Currying (in progress)
 - [ ] Decorators
 
 ### 8. Build an AI Agent
