@@ -96,6 +96,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Closures
 - [x] Currying
 - [ ] Decorators (in progress)
+- [ ] Sum Types
 
 ### 8. Build an AI Agent
 
