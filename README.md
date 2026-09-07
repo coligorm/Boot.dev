@@ -27,6 +27,8 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Quiz</s></li></ol>
 </details>
 
+:warning: <em>12 New Lessons Added</em>
+
 ### 2. Learn Linux :heavy_check_mark:
 
 <details>
@@ -39,6 +41,8 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Packages</s></li></ol>
 </details>
 
+:warning: <em>7 New Lessons Added</em>
+
 ### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) :heavy_check_mark:
 
 <details>
@@ -47,6 +51,8 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Data Analysis</s></li>
 <li> <s>Report</s></li></ol>
 </details>
+
+:warning: <em>1 New Lesson Added</em>
 
 ### 4. Learn Git :heavy_check_mark:
 
