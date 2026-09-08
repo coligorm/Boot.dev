@@ -101,7 +101,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Functions Transformations
 - [x] Closures
 - [x] Currying
-- [ ] Decorators (in progress)
+- [x] Decorators
 - [ ] Sum Types
 
 ### 8. Build an AI Agent
