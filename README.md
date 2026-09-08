@@ -92,17 +92,20 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 *ran into error with Pygame working through WSL. Project to be continued*
 
-### 7. Learn Functional Programming in Python
+### 7. Learn Functional Programming in Python :heavy_check_mark:
 
-- [x] What is Functional Programming?
-- [x] First Class functions
-- [x] Pure Functions
-- [x] Recursion
-- [x] Functions Transformations
-- [x] Closures
-- [x] Currying
-- [x] Decorators
-- [x] Sum Types
+<details>
+<summary><em>Completed Chapters</em></summary>
+<ol><li> <s>What is Functional Programming?</s></li>
+<li> <s>First Class functions</s></li>
+<li> <s>Pure Functions</s></li>
+<li> <s>Recursion</s></li>
+<li> <s>Functions Transformations</s></li>
+<li> <s>Closures</s></li>
+<li> <s>Currying</s></li>
+<li> <s>Decorators</s></li>
+<li> <s>Sum Types</s></li></ol>
+</details>
 
 ### 8. Build an AI Agent
 
