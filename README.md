@@ -106,4 +106,23 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 9. Learn Data Structures and Algorithms
 
+- [ ] Algorithms Intro
+- [ ] Maths
+- [ ] Big-O Analysis
+- [ ] Sorting Algorithms
+- [ ] Exponential Time
+- [ ] Data Structures Intro
+- [ ] Stacks
+- [ ] Queues
+- [ ] Linked Lists
+- [ ] Binary Trees
+- [ ] Red Black Trees
+- [ ] Hashmaps
+- [ ] Tries
+- [ ] Graphs
+- [ ] BFS and DFS
+- [ ] P vs NP
+
+### 10. Build a Static Site Generator
+
 *chapters to be added*
