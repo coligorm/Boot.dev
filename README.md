@@ -106,7 +106,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 9. Learn Data Structures and Algorithms
 
-- [ ] Algorithms Intro
+- [x] Algorithms Intro
 - [ ] Maths
 - [ ] Big-O Analysis
 - [ ] Sorting Algorithms
