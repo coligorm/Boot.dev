@@ -7,9 +7,8 @@ I have a year membership to complete the following [course](https://www.boot.dev
 The course begins with the basics in Python, but includes lessons on Linux, Git, Memory in C, SQLa and TypeScript.
 I have a fairly good grasp on a lot of earlier concepts but i will use them as a refresher before leading into more intense learning
 
-### 1. Learn to Code in Python :heavy_check_mark:
+### 1. Learn to Code in Python :warning: <em>New Chapter Added</em>
 
-<details>
 <summary><em>Completed Chapters</em></summary>
 <ol><li> <s>Introduction</s></li>
 <li> <s>Variables</s></li>
@@ -23,36 +22,27 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Dictionaries</s></li>
 <li> <s>Sets</s></li>
 <li> <s>Errors</s></li>
+<li>Type Hints <em>*New Chapter Added</em></li>
 <li> <s>Practice</s></li>
 <li> <s>Quiz</s></li></ol>
-</details>
 
-:warning: <em>12 New Lessons Added</em>
+### 2. Learn Linux :warning: <em>New Lessons Added</em>
 
-### 2. Learn Linux :heavy_check_mark:
-
-<details>
 <summary><em>Completed Chapters</em></summary>
-<ol><li> <s>Terminals and Shells</s></li>
-<li> <s>Filesystems</s></li>
-<li> <s>Permissions</s></li>
+<ol><li> <s>The Command Line</s></li>
+<li>Filesystems <em>*New Lesson Added</em></li>
 <li> <s>Programs</s></li>
 <li> <s>Input/Output</s></li>
+<li>Local CLI <em>*New Chapter Added</em></li>
+<li>Permissions <em>*New Lessons Added</em></li>
 <li> <s>Packages</s></li></ol>
-</details>
 
-:warning: <em>7 New Lessons Added</em>
+### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) :warning: <em>New Lesson Added</em>
 
-### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) :heavy_check_mark:
-
-<details>
 <summary><em>Completed Chapters</em></summary>
 <ol><li> <s>Setup</s></li>
 <li> <s>Data Analysis</s></li>
-<li> <s>Report</s></li></ol>
-</details>
-
-:warning: <em>1 New Lesson Added</em>
+<li>Report <em>*New Lesson Added</em></li></ol>
 
 ### 4. Learn Git :heavy_check_mark:
 
@@ -108,5 +98,12 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 </details>
 
 ### 8. Build an AI Agent
+
+- [ ] LLMs
+- [ ] Functions
+- [ ] Function Calling
+- [ ] Agents
+
+### 9. Learn Data Structures and Algorithms
 
 *chapters to be added*
