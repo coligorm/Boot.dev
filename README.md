@@ -108,7 +108,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 - [x] Algorithms Intro
 - [x] Maths
-- [ ] Big-O Analysis (in progress)
+- [x] Big-O Analysis
 - [ ] Sorting Algorithms
 - [ ] Exponential Time
 - [ ] Data Structures Intro
