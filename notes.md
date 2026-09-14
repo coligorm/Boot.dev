@@ -248,3 +248,278 @@ print(double_func(5))
 ```
 
 The `self_math` function takes a function that operates on two *different* parameters (e.g. `multiply` or `add`) and returns a new function that operates on one parameter *twice* (e.g. `square` or `double`).
+
+
+---
+
+## Chapter 9. Learn Data Structures and Algorithms
+
+### Bubble Sort
+
+Bubble sort is famous for how easy it is to write and understand.
+However, it's one of the slowest sorting algorithms, and as a result is almost never used in practice.
+
+<details>
+    <summary><em>Pseudocode</em></summary>
+    <ol>
+        <li>Set <code>swapping</code> to <code>True</code></li>
+        <li>Set <code>end</code> to the length of the input list</li>
+        <li>While <code>swapping</code> is <code>True</code>:</li>
+        <ol>
+            <li>Set <code>swapping</code> to <code>False</code></li>
+            <li>For <code>i</code> from the 2nd element to <code>end</code>:</li>
+            <ul>
+                <li>If the <code>(i-1)</code>th element of the input list is greater than the <code>i</code>th element:</li>
+                <ol>
+                    <li>Swap the <code>(i-1)</code>th element and the <code>i</code>th element</li>
+                    <li>Set <code>swapping</code> to <code>True</code></li>
+                </ol>
+            </ul>
+            <li>Decrement <code>end</code> by one</li>
+        <li>Return the sorted list</li>
+    </ol>
+</details>
+
+```python
+def bubble_sort(nums: list[int]) -> list[int]:
+    swapping = True
+    end = len(nums)
+
+    while swapping:
+        swapping = False
+        for i in range(1, end):
+            if nums[i-1] > nums[i]:
+                nums[i-1], nums[i] = nums[i], nums[i-1]
+                swapping = True
+        end -= 1
+    return nums
+```
+
+### Merge Sort
+
+Merge sort is a recursive sorting algorithm and it's quite a bit faster than bubble sort. It's a divide and conquer algorithm
+In merge sort we:
+
+- Divide the array into two equal halves (divide)
+- Recursively sort the two halves
+- Merge the two halves to form a sorted array (conquer)
+
+<details>
+    <summary><em>Pseudocode</em></summary>
+    <b><code>merge_sort()</code></b>
+    <br>
+    Input: <code>A</code>, an unsorted list of integers
+    <ol>
+        <li>If the length of <code>A</code> is less than <code>2</code>, it's already sorted so return it</li>
+        <li>Split the input array into two halves down the middle</li>
+        <li>Call <code>merge_sort()</code> twice, once on each half</li>
+        <li>Return the result of calling <code>merge(sorted_left_side, sorted_right_side)</code> on the results of the <code>merge_sort()</code> calls</li>
+    </ol>
+    <b><code>merge()</code></b>
+    <br>
+    Inputs: <code>A</code> and <code>B</code>. Two sorted lists of integers
+    <ol>
+        <li>Create a new <code>final</code> list of integers.</li>
+        <li>Set <code>i</code> and <code>j</code> equal to zero. They will be used to keep track of indexes in the input lists (<code>A</code> and <code>B</code>).</li>
+        <li>Use a loop to compare the current elements of <code>A</code> and <code>B</code>:</li>
+        <ul>
+            <li>While <code>i < len(A)</code> and <code>j < len(B)</code>, compare <code>A[i]</code> and <code>B[j]</code>.</li>
+            <li>Append the smaller or equal value to <code>final</code>.</li>
+            <li>Increment the index for the list you just took from.</li>
+            <li>Stop when either list is exhausted.</li>
+        </ul>
+        <li>After comparing all the items, there may be some items left over in either <code>A</code> or <code>B</code>. Add those extra items to the <code>final</code> list.</li>
+        <li>Return the <code>final</code> list.</li>
+</details>
+
+
+```python
+def merge_sort(nums: list[int]) -> list[int]:
+    if len(nums) < 2:
+        return nums
+    sorted_left_side = merge_sort(nums[: len(nums) // 2])
+    sorted_right_side = merge_sort(nums[len(nums) // 2 :])
+    return merge(sorted_left_side, sorted_right_side)
+
+
+def merge(first: list[int], second: list[int]) -> list[int]:
+    final = []
+    i = 0
+    j = 0
+    while i < len(first) and j < len(second):
+        if first[i] <= second[j]:
+            final.append(first[i])
+            i += 1
+        else:
+            final.append(second[j])
+            j += 1
+    while i < len(first):
+        final.append(first[i])
+        i += 1
+    while j < len(second):
+        final.append(second[j])
+        j += 1
+    return final
+```
+
+#### Why Merge Sort
+
+Pros:
+- Fast: Merge sort is much faster than bubble sort. O(n*log(n)) instead of O(n^2).
+- Stable: Merge sort is a stable sort which means that values with duplicate keys in the original list will be in the same order in the sorted list.
+
+Cons:
+- Memory usage: Most sorting algorithms can be performed using a single copy of the original array. Merge sort requires extra subarrays in memory.
+- Recursive: Merge sort requires many recursive function calls, and in many languages (like Python), this can incur a performance penalty.
+
+### Insertion Sort
+
+Insertion sort builds a sorted list one item at a time. It's much less efficient on large lists than merge sort because it's <code>O(n^2)</code>, but it's actually faster (not in Big O terms, but due to smaller constants) than merge sort on small lists.
+
+<details>
+    <summary><em>Pseudocode</em></summary>
+    <ol>
+        <li>For each index in the input list, starting with the second element:</li>
+        <ol>
+            <li>Set a <code>j</code> variable to the current index</li>
+            <li>While <code>j</code> is greater than <code>0</code> and the element at index <code>j-1</code> is greater than the element at index <code>j</code>:</li>
+            <ol>
+                <li>Swap the elements at indices <code>j</code> and <code>j-1</code></li>
+                <li>Decrement <code>j</code> by <code>1</code></li>
+            </ol>
+        </ol>
+        <li>Return the list</li>
+    </ol>
+</details>
+
+```python
+def insertion_sort(nums: list[int]) -> list[int]:
+    for i in range(1, len(nums)):
+        j = i
+        while j > 0 and nums[j-1] > nums[j]:
+            nums[j], nums[j-1] = nums[j-1], nums[j]
+            j -= 1
+    return nums
+
+```
+
+#### Why Insetion Sort
+
+- Fast: for very small data sets (even faster than merge sort and quick sort, which we'll cover later)
+- Adaptive: Faster for partially sorted data sets
+- Stable: Does not change the relative order of elements with equal keys
+- In-Place: Only requires a constant amount of memory
+- Online: Can sort a list as it receives it
+
+### Quick Sort
+
+Quick sort is an efficient sorting algorithm that's widely used in production sorting implementations. Like merge sort, quick sort is a recursive divide and conquer algorithm.
+
+Divide:
+- Select a pivot element that will preferably end up close to the center of the sorted pack
+- Move everything onto the "greater than" or "less than" side of the pivot
+- The pivot is now in its final position
+- Recursively repeat the operation on both sides of the pivot
+
+Conquer:
+- The array is sorted after all elements have been through the pivot operation
+
+<details>
+    <summary><em>Pseudocode</em></summary>
+    <ol>
+        <li>Complete quick_sort(nums, low, high):</li>
+        <ol>
+            <li>If low is less than high:</li>
+            <ol>
+                <li>Partition the input list using the partition function and store the returned "middle" index</li>
+                <li>Recursively call quick_sort on the elements left of the pivot (low to middle - 1)</li>
+                <li>Recursively call quick_sort on the elements right of the pivot (middle + 1 to high)</li>
+            </ol>
+        </ol>
+        <li>partition(nums, low, high):</li>
+        <ol>
+            <li>Set pivot to the element at index high</li>
+            <li>Set i to the index before low</li>
+            <li>For each index (j) in range(low, high):</li>
+            <ol>
+                <li>If the element at index j is less than the pivot:</li>
+                <ol>
+                    <li>Increment i by 1</li>
+                    <li>Swap the element at index i with the element at index j</li>
+                </ol>
+            </ol>
+            <li>Swap the element at index i + 1 with the element at index high (the pivot's position)</li>
+            <li>Return i + 1 (the pivot's new index)</li>
+            </ol>
+        </ol>
+    </ol>
+</details>
+
+```python
+def quick_sort(nums: list[int], low: int, high: int) -> None:
+    if low < high:
+        middle = partition(nums, low, high)
+        quick_sort(nums, low, middle - 1)
+        quick_sort(nums, middle + 1, high)
+
+def partition(nums: list[int], low: int, high: int) -> int:
+    pivot = nums[high]
+    i = low - 1
+    for j in range(low, high):
+        if nums[j] < pivot:
+            i += 1
+            nums[i], nums[j] = nums[j], nums[i]
+    nums[i+1], nums[high] = nums[high], nums[i+1]
+    
+    return i + 1
+```
+
+#### Fixing Quick Sort
+
+While the version of quicksort that we implemented is almost always able to perform at speeds of O(n*log(n)), its Big O is still technically O(n^2) due to the worst-case scenario. We can fix this by altering the algorithm slightly.
+
+Two of the approaches are:
+- Shuffle input randomly before sorting. This can trivially be done in O(n) time.
+- Actively find the median of a sample of data from the partition, this can be done in O(1) time.
+
+#### Why Use Quick Sort?
+
+Pros:
+- Very fast: At least it is in the average case
+- In-Place: Saves on memory, doesn't need to do a lot of copying and allocating
+
+Cons:
+- Typically unstable: changes the relative order of elements with equal keys
+- Recursive: can incur a performance penalty in some implementations
+- Pivot sensitivity: if the pivot is poorly chosen, it can lead to poor performance
+
+### Selection Sort
+
+It's similar to bubble sort in that it works by repeatedly swapping items in a list. However, it's slightly more efficient than bubble sort because it only makes one swap per iteration.
+
+<details>
+    <summary><em>Pseudocode</em></summary>
+    <ol>
+        <li>For each index:</li>
+        <ol>
+            <li>Set <code>smallest_idx</code> to the current index (of the outer loop)</li>
+            <li>For each index from <code>i + 1</code> to the end of the list:</li>
+            <ol>
+                <li>If the number at the inner loop index is smaller than the number at <code>smallest_idx</code>, set <code>smallest_idx</code> to the inner loop index</li>
+            </ol>
+            <li>Swap the number at the outer loop index with the number at <code>smallest_idx</code></li>
+        </ol>
+        <li>Return the sorted list</li>
+    </ol>
+</details>
+
+```python
+def selection_sort(nums: list[int]) -> list[int]:
+    for i in range(len(nums)):
+        smallest_idx = i
+        for j in range(i+1, len(nums)):
+            if nums[j] < nums[smallest_idx]:
+                smallest_idx = j
+        nums[i], nums[smallest_idx] = nums[smallest_idx], nums[i]
+    return nums
+```
