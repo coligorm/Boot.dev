@@ -109,7 +109,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Algorithms Intro
 - [x] Maths
 - [x] Big-O Analysis
-- [ ] Sorting Algorithms (in progress)
+- [x] Sorting Algorithms
 - [ ] Exponential Time
 - [ ] Data Structures Intro
 - [ ] Stacks
