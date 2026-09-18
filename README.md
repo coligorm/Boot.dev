@@ -112,7 +112,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Sorting Algorithms
 - [x] Exponential Time
 - [x] Data Structures Intro
-- [ ] Stacks
+- [x] Stacks
 - [ ] Queues
 - [ ] Linked Lists
 - [ ] Binary Trees
