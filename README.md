@@ -114,7 +114,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Data Structures Intro
 - [x] Stacks
 - [x] Queues
-- [ ] Linked Lists
+- [x] Linked Lists
 - [ ] Binary Trees
 - [ ] Red Black Trees
 - [ ] Hashmaps
