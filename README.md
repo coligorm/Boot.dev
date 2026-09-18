@@ -113,7 +113,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Exponential Time
 - [x] Data Structures Intro
 - [x] Stacks
-- [ ] Queues
+- [x] Queues
 - [ ] Linked Lists
 - [ ] Binary Trees
 - [ ] Red Black Trees
