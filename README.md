@@ -115,7 +115,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Stacks
 - [x] Queues
 - [x] Linked Lists
-- [ ] Binary Trees (in progress contd.)
+- [x] Binary Trees
 - [ ] Red Black Trees
 - [ ] Hashmaps
 - [ ] Tries
