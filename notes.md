@@ -699,3 +699,18 @@ class BSTNode:
             current = current.right
         return current.val
 ```
+
+
+## Red-Black Tree
+
+A red-black tree is a kind of binary search tree that solves the "balancing" problem. It contains a bit of extra logic to ensure that as nodes are inserted and deleted, the tree remains relatively balanced.
+
+**How it works**
+Each node in an RB Tree stores an extra bit, called the "color": either red or black. The "color" ensures that the tree remains approximately balanced during insertions and deletions. When the tree is modified, the new tree is rearranged and repainted to restore the coloring properties that constrain how unbalanced the tree can become in the worst case.
+
+**List of Very Simple Rules**
+Each node is either red or black.
+The root is black.
+All Nil leaf nodes are black.
+If a node is red, then both its children are black.
+All paths from a single node go through the same number of black nodes to reach any of its descendant Nil (black) nodes.
