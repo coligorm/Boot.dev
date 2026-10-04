@@ -9,22 +9,24 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 1. Learn to Code in Python :warning:
 
-<summary><em>Completed Chapters</em></summary>
-<ol><li> <s>Introduction</s></li>
-<li> <s>Variables</s></li>
-<li> <s>Functions</s></li>
-<li> <s>Scope</s></li>
-<li> <s>Testing and Debugging</s></li>
-<li> <s>Computing</s></li>
-<li> <s>Comparisons</s></li>
-<li> <s>Loops</s></li>
-<li> <s>Lists</s></li>
-<li> <s>Dictionaries</s></li>
-<li> <s>Sets</s></li>
-<li> <s>Errors</s></li>
-<li> <s>Type Hints</s></li>
-<li> <s>Practice</s></li>
-<li> <s>Quiz</s></li></ol>
+<details>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li> <s>Introduction</s></li>
+    <li> <s>Variables</s></li>
+    <li> <s>Functions</s></li>
+    <li> <s>Scope</s></li>
+    <li> <s>Testing and Debugging</s></li>
+    <li> <s>Computing</s></li>
+    <li> <s>Comparisons</s></li>
+    <li> <s>Loops</s></li>
+    <li> <s>Lists</s></li>
+    <li> <s>Dictionaries</s></li>
+    <li> <s>Sets</s></li>
+    <li> <s>Errors</s></li>
+    <li> <s>Type Hints</s></li>
+    <li> <s>Practice</s></li>
+    <li> <s>Quiz</s></li></ol>
+</details>
 
 ### 2. Learn Linux :warning: <em>New Lessons Added</em>
 
@@ -47,30 +49,30 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 ### 4. Learn Git :heavy_check_mark:
 
 <details>
-<summary><em>Completed Chapters</em></summary>
-<ol><li> <s>Setup</s></li>
-<li> <s>Repositories</s></li>
-<li> <s>Internals</s></li>
-<li> <s>Config</s></li>
-<li> <s>Branching</s></li>
-<li> <s>Merge</s></li>
-<li> <s>Rebase</s></li>
-<li> <s>Reset</s></li>
-<li> <s>Remote</s></li>
-<li> <s>GitHub</s></li>
-<li> <s>Gitignore</s></li></ol>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li> <s>Setup</s></li>
+    <li> <s>Repositories</s></li>
+    <li> <s>Internals</s></li>
+    <li> <s>Config</s></li>
+    <li> <s>Branching</s></li>
+    <li> <s>Merge</s></li>
+    <li> <s>Rebase</s></li>
+    <li> <s>Reset</s></li>
+    <li> <s>Remote</s></li>
+    <li> <s>GitHub</s></li>
+    <li> <s>Gitignore</s></li></ol>
 </details>
 
 ### 5. Learn Object Oriented Programming in Python :heavy_check_mark:
 
 <details>
-<summary><em>Completed Chapters</em></summary>
-<ol><li> <s>Clean code</s></li>
-<li> <s>Classes</s></li>
-<li> <s>Encapsulation</s></li>
-<li> <s>Abstraction</s></li>
-<li> <s>Inheritance</s></li>
-<li> <s>Polymorphism</s></li></ol>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li> <s>Clean code</s></li>
+    <li> <s>Classes</s></li>
+    <li> <s>Encapsulation</s></li>
+    <li> <s>Abstraction</s></li>
+    <li> <s>Inheritance</s></li>
+    <li> <s>Polymorphism</s></li></ol>
 </details>
 
 ### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project)
@@ -85,16 +87,16 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 ### 7. Learn Functional Programming in Python :heavy_check_mark:
 
 <details>
-<summary><em>Completed Chapters</em></summary>
-<ol><li> <s>What is Functional Programming?</s></li>
-<li> <s>First Class functions</s></li>
-<li> <s>Pure Functions</s></li>
-<li> <s>Recursion</s></li>
-<li> <s>Functions Transformations</s></li>
-<li> <s>Closures</s></li>
-<li> <s>Currying</s></li>
-<li> <s>Decorators</s></li>
-<li> <s>Sum Types</s></li></ol>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li> <s>What is Functional Programming?</s></li>
+    <li> <s>First Class functions</s></li>
+    <li> <s>Pure Functions</s></li>
+    <li> <s>Recursion</s></li>
+    <li> <s>Functions Transformations</s></li>
+    <li> <s>Closures</s></li>
+    <li> <s>Currying</s></li>
+    <li> <s>Decorators</s></li>
+    <li> <s>Sum Types</s></li></ol>
 </details>
 
 ### 8. Build an AI Agent
