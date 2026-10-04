@@ -7,7 +7,7 @@ I have a year membership to complete the following [course](https://www.boot.dev
 The course begins with the basics in Python, but includes lessons on Linux, Git, Memory in C, SQLa and TypeScript.
 I have a fairly good grasp on a lot of earlier concepts but i will use them as a refresher before leading into more intense learning
 
-### 1. Learn to Code in Python :warning: <em>New Chapter Added</em>
+### 1. Learn to Code in Python :warning:
 
 <summary><em>Completed Chapters</em></summary>
 <ol><li> <s>Introduction</s></li>
