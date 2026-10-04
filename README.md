@@ -22,7 +22,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 <li> <s>Dictionaries</s></li>
 <li> <s>Sets</s></li>
 <li> <s>Errors</s></li>
-<li>Type Hints <em>*New Chapter Added</em></li>
+<li> <s>Type Hints</s></li>
 <li> <s>Practice</s></li>
 <li> <s>Quiz</s></li></ol>
 
