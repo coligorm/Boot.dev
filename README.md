@@ -119,7 +119,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Linked Lists
 - [x] Binary Trees
 - [x] Red Black Trees
-- [ ] Hashmaps
+- [x] Hashmaps
 - [ ] Tries
 - [ ] Graphs
 - [ ] BFS and DFS
