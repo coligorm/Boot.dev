@@ -121,7 +121,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Red Black Trees
 - [x] Hashmaps
 - [x] Tries
-- [ ] Graphs
+- [ ] Graphs (in progress)
 - [ ] BFS and DFS
 - [ ] P vs NP
 
