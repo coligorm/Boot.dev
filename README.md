@@ -122,7 +122,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Hashmaps
 - [x] Tries
 - [x] Graphs
-- [ ] BFS and DFS (in progress)
+- [x] BFS and DFS
 - [ ] P vs NP
 
 ### 10. Build a Static Site Generator
