@@ -108,22 +108,25 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 9. Learn Data Structures and Algorithms
 
-- [x] Algorithms Intro
-- [x] Maths
-- [x] Big-O Analysis
-- [x] Sorting Algorithms
-- [x] Exponential Time
-- [x] Data Structures Intro
-- [x] Stacks
-- [x] Queues
-- [x] Linked Lists
-- [x] Binary Trees
-- [x] Red Black Trees
-- [x] Hashmaps
-- [x] Tries
-- [x] Graphs
-- [x] BFS and DFS
-- [x] P vs NP
+<details>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li> <s>Algorithms Intro</s></li>
+    <li> <s>Maths</s></li>
+    <li> <s>Big-O Analysis</s></li>
+    <li> <s>Sorting Algorithms</s></li>
+    <li> <s>Exponential Time</s></li>
+    <li> <s>Data Structures Intro</s></li>
+    <li> <s>Stacks</s></li>
+    <li> <s>Queues</s></li>
+    <li> <s>Linked Lists</s></li>
+    <li> <s>Binary Trees</s></li>
+    <li> <s>Red Black Trees</s></li>
+    <li> <s>Hashmaps</s></li>
+    <li> <s>Tries</s></li>
+    <li> <s>Graphs</s></li>
+    <li> <s>BFS and DFS</s></li>
+    <li> <s>P vs NP</s></li></ol>
+</details>
 
 ### 10. Build a Static Site Generator
 
