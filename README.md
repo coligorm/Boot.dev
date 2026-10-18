@@ -28,16 +28,18 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     <li> <s>Quiz</s></li></ol>
 </details>
 
-### 2. Learn Linux :warning: <em>New Lessons Added</em>
+### 2. Learn Linux :heavy_check_mark:
 
-<summary><em>Completed Chapters</em></summary>
-<ol><li> <s>The Command Line</s></li>
-<li>Filesystems <em>*New Lesson Added</em></li>
-<li> <s>Programs</s></li>
-<li> <s>Input/Output</s></li>
-<li>Local CLI <em>*New Chapter Added</em></li>
-<li>Permissions <em>*New Lessons Added</em></li>
-<li> <s>Packages</s></li></ol>
+<details>
+    <summary><em>Completed Chapters</em></summary>
+    <ol><li><s>The Command Line</s></li>
+    <li><s>Filesystems</s></li>
+    <li><s>Programs</s></li>
+    <li><s>Input/Output</s></li>
+    <li><s>Local CLI</s></li>
+    <li><s>Permissions</s></li>
+    <li><s>Packages</s></li></ol>
+</details>
 
 ### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) :warning: <em>New Lesson Added</em>
 
