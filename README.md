@@ -106,7 +106,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [ ] Function Calling
 - [ ] Agents
 
-### 9. Learn Data Structures and Algorithms
+### 9. Learn Data Structures and Algorithms :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
