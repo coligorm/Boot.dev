@@ -152,7 +152,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 11. Learn Memory Management
 
-- [ ] C Basics
+- [ ] C Basics (in progress)
 - [ ] Structs
 - [ ] Pointers
 - [ ] Enums
