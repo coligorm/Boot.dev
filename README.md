@@ -149,3 +149,17 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 ### 10. Build a Static Site Generator
 
 *chapters to be added*
+
+### 11. Learn Memory Management
+
+- [ ] C Basics
+- [ ] Structs
+- [ ] Pointers
+- [ ] Enums
+- [ ] Unions
+- [ ] Stack and Heap
+- [ ] Advanced Pointers
+- [ ] Stack Data Structure
+- [ ] Objects
+- [ ] Refcounting GC
+- [ ] Mark and Sweep GC
