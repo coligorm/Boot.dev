@@ -7,7 +7,7 @@ I have a year membership to complete the following [course](https://www.boot.dev
 The course begins with the basics in Python, but includes lessons on Linux, Git, Memory in C, SQLa and TypeScript.
 I have a fairly good grasp on a lot of earlier concepts but i will use them as a refresher before leading into more intense learning
 
-### 1. Learn to Code in Python [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
+### 1. Learn to Code in Python [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -30,7 +30,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 2. Learn Linux [(https://skillicons.dev/icons?i=linux)](https://skillicons.dev) :heavy_check_mark:
+### 2. Learn Linux [![My Skills](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -45,7 +45,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
+### 3. Build a Bootbot in Python :hammer_and_wrench: (Project) [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -56,7 +56,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 4. Learn Git [(https://skillicons.dev/icons?i=git)](https://skillicons.dev) :heavy_check_mark:
+### 4. Learn Git [![My Skills](https://skillicons.dev/icons?i=git)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -75,7 +75,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 5. Learn Object Oriented Programming in Python [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
+### 5. Learn Object Oriented Programming in Python [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -89,7 +89,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project) [(https://skillicons.dev/icons?i=python)](https://skillicons.dev)
+### 6. Build Asteroids using Python and Pygame :hammer_and_wrench: (Project) [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
 
 - [x] Pygame
 - [x] Gameloop
@@ -98,7 +98,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 *ran into error with Pygame working through WSL. Project to be continued*
 
-### 7. Learn Functional Programming in Python [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
+### 7. Learn Functional Programming in Python [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -115,14 +115,14 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 8. Build an AI Agent :hammer_and_wrench: (Project) [(https://skillicons.dev/icons?i=python)](https://skillicons.dev)
+### 8. Build an AI Agent :hammer_and_wrench: (Project) [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
 
 - [ ] LLMs
 - [ ] Functions
 - [ ] Function Calling
 - [ ] Agents
 
-### 9. Learn Data Structures and Algorithms [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
+### 9. Learn Data Structures and Algorithms [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) :heavy_check_mark:
 
 <details>
     <summary><em>Completed Chapters</em></summary>
@@ -146,7 +146,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
     </ol>
 </details>
 
-### 10. Build a Static Site Generator :hammer_and_wrench: (Project) [(https://skillicons.dev/icons?i=python)](https://skillicons.dev) 
+### 10. Build a Static Site Generator :hammer_and_wrench: (Project) [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev) 
 
 *chapters to be added*
 
