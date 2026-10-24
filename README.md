@@ -152,7 +152,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 ### 11. Learn Memory Management [![My Skills](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
 
-- [ ] C Basics (in progress)
+- [x] C Basics
 - [ ] Structs
 - [ ] Pointers
 - [ ] Enums
