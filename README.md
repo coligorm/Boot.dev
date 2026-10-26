@@ -154,7 +154,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 
 - [x] C Basics
 - [x] Structs
-- [ ] Pointers
+- [ ] Pointers (in progress)
 - [ ] Enums
 - [ ] Unions
 - [ ] Stack and Heap
