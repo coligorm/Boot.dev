@@ -7,17 +7,17 @@
 #### Lambda
 
 Anonymous functions have no name, and in Python, they're called [lambda functions](https://docs.python.org/3/reference/expressions.html#lambda) after lambda calculus. Here's a lambda function that takes a single argument x and returns the result of x + 1:
-```
+```python
 lambda x: x + 1
 ```
 This is usefull for simple functions like the above, instead of writing this:
-```
+```python
 def add_one(x):
     return x + 1
 ```
 
 Using the lambda function in the code below:
-```
+```python
 add_one = lambda x: x + 1
 print(add_one(2))
 # 3
@@ -27,7 +27,7 @@ They simply return the result of an expression, they're often used for small, si
 
 ##### Lambda If/Else
 
-```
+```python
 lambda x: True if x % 2 == 0 else False
 ```
 
@@ -35,7 +35,7 @@ lambda x: True if x % 2 == 0 else False
 
 In the following assignment, I was asked to take a list of tuples, where each tuple contains a file type (e.g. "code", "document", "image", etc.) and a list of associated file extensions (e.g. [".py", ".js"] or [".docx", ".doc"]), and return a lambda function that accepts a string (a file extension) and returns its file type from the dictionary.
 
-```
+```python
 def file_type_getter(file_extension_tuples):
     file_extensions_dict = {}
     for tup in file_extension_tuples:
@@ -53,7 +53,7 @@ A programming language "supports first-class functions" when functions are treat
 
 ##### First Class Example
 
-```
+```python
 def square(x):
     return x * x
 
@@ -66,7 +66,7 @@ print(f(5))
 
 ##### Higher-Order Example
 
-```
+```python
 def square(x):
     return x * x
 
@@ -87,7 +87,7 @@ print(squares)
 
 The `map` function takes a function and an iterable (in this case a list) as inputs. It returns an iterator that applies the function to every item, yielding the results.
 
-```
+```python
 def square(x):
     return x * x
 
@@ -104,7 +104,7 @@ print(list(squared_nums))
 
 Complete the `change_bullet_style` function. It takes a document (a string) as input, and returns a single string as output. The returned string should have any lines that start with a - character replaced with a * character.
 
-```
+```python
 def change_bullet_style(document):
     return "\n".join(map(convert_line, document.split("\n")))
 
@@ -124,7 +124,7 @@ def convert_line(line):
 
 The `filter` function takes a function and an iterable (in this case a list) and returns an iterator that only contains elements from the original iterable where the result of the function on that item returned `True`.
 
-```
+```python
 def is_even(x):
     return x % 2 == 0
 
@@ -143,7 +143,7 @@ Complete the `remove_invalid_lines function`. It accepts a document string as in
 - Keep all other lines and preserve any trailing newlines (\n).
 - Return the result, all on one expression.
 
-```
+```python
 def remove_invalid_lines(document):
     return "\n".join(filter(lambda line: not line.startswith("-"), document.split("\n")))
 ```
@@ -152,7 +152,7 @@ def remove_invalid_lines(document):
 
 The `functools.reduce()` function takes a function and a list of values, and applies the function to each value in the list, accumulating a single result as it goes.
 
-```
+```python
 # import functools from the standard library
 import functools
 
@@ -186,7 +186,7 @@ Only use the first `n` sentences from the list. If `n` is zero, just return an e
 Use `functools.reduce()` with your join function to combine the sliced sentences into a single string.
 Add a final period without a trailing space and return this string.
 
-```
+```python
 import functools
 
 
@@ -205,7 +205,7 @@ def join_first_sentences(sentences, n):
 
 The zip function takes two iterables (in this case lists), and returns a new iterable where each element is a tuple containing one element from each of the original iterables.
 
-```
+```python
 a = [1, 2, 3]
 b = [4, 5, 6]
 
@@ -220,7 +220,7 @@ print(c)
 
 "Function transformation" is just a concise way to describe a specific type of higher-order function. It's when a function takes a function (or functions) as input and returns a new function. Let's look at an example:
 
-```
+```python
 from collections.abc import Callable
 
 def multiply(x: int, y: int) -> int:
@@ -536,7 +536,7 @@ I enjoyed this exercise on creating a delete function for a Binary Tree and didn
 > 
 > Notice that in the test suite the delete method is called like this:
 > 
-> ```bst = bst.delete(character)```
+> ```pythonbst = bst.delete(character)```python
 > 
 > Check if the current node is empty (has no value). If it is, return None. This represents an empty tree or a leaf node where deletion has already occurred.
 > If the value to delete is less than the current node's value:
@@ -557,7 +557,7 @@ I enjoyed this exercise on creating a delete function for a Binary Tree and didn
 
 My solution:
 
-```
+```python
 from typing import Any
 
 
@@ -633,7 +633,7 @@ class BSTNode:
 
 The solution:
 
-```
+```python
 from typing import Any
 
 
