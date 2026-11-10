@@ -156,7 +156,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Structs
 - [x] Pointers
 - [x] Enums
-- [ ] Unions
+- [ ] Unions (in progress)
 - [ ] Stack and Heap
 - [ ] Advanced Pointers
 - [ ] Stack Data Structure
