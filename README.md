@@ -158,7 +158,7 @@ I have a fairly good grasp on a lot of earlier concepts but i will use them as a
 - [x] Enums
 - [x] Unions
 - [x] Stack and Heap
-- [ ] Advanced Pointers
+- [ ] Advanced Pointers (in progress)
 - [ ] Stack Data Structure
 - [ ] Objects
 - [ ] Refcounting GC
